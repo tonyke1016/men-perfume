@@ -1,0 +1,122 @@
+
+body{
+    font-style: verdana; 
+    background-image:url(../img/freshnotepicture/green\ leaf.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;    
+}
+/* .wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    
+} */
+
+.header ul li a{
+    color:#fff;
+}
+.header ul li a:hover{
+    color:#B9C4B6;    
+}
+.header ol li a{
+    color: #fff;
+    
+}
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+.main{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+.main a{
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.main a:hover{
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+.pro_1{
+    flex-basis: 55%;
+}
+.pro_1_pic{
+    
+}
+.pro_1_pic img{
+    width: 200px;
+}
+.pro_1_name{}
+.pro_1_name p{
+    color:#B9C4B6;
+    text-align: center;
+    margin-top: 30px;
+}
+.pro_2{
+    flex-basis: 55%;
+}
+.pro_2_pic{}
+.pro_2_pic img{
+    width: 200px;
+}
+.pro_2_name{}
+.pro_2_name p{
+    color:#B9C4B6;
+    text-align: center;
+    margin-top: 30px;
+}
+.pro_3{
+    flex-basis: 55%;
+}
+.pro_3_pic{}
+.pro_3_pic img{
+    width: 200px;
+}
+.pro_3_name{}
+.pro_3_name p{
+    color:#B9C4B6;
+    text-align: center;
+    margin-top: 30px;
+}
+.pro_4{
+    flex-basis: 55%;
+}
+.pro_4_pic{}
+.pro_4_pic img{
+    width: 200px;
+}
+.pro_4_name{}
+.pro_4_name p{
+    color:#B9C4B6;
+    text-align: center;
+    margin-top: 30px;
+}
+

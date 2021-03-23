@@ -1,0 +1,101 @@
+
+body{
+    font-style: verdana; 
+    background-image:url(../img/woodynotepicture/wood\ background.png);  
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;  
+}
+/* .wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    
+       
+} */
+
+.header ul li a{
+    color:black;      
+}
+.header ul li a:hover{
+    color:brown;      
+}
+
+.header ol li a{
+    color: black;
+    
+}
+
+.main{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+.main a{
+    text-decoration: none;
+}
+.main a:hover{
+    transform: translateY(-50px);
+    transition: 1s;
+}
+.pro_1{
+    flex-basis: 55%;
+}
+.pro_1_pic{
+    
+}
+.pro_1_pic img{
+    width: 200px;
+}
+.pro_1_name{}
+.pro_1_name p{
+    color:brown;
+    text-align: center;
+    margin-top: 30px;
+}
+.pro_2{
+    flex-basis: 55%;
+}
+.pro_2_pic{
+   
+}
+.pro_2_pic img{
+    width: 200px;
+    margin: 0 auto;
+}
+.pro_2_name{}
+.pro_2_name p{
+    color:brown;
+    text-align: center;
+    margin-top: 30px;
+}
+.pro_3{
+    flex-basis: 55%;
+}
+.pro_3_pic{}
+.pro_3_pic img{
+    width: 200px;
+}
+.pro_3_name{}
+.pro_3_name p{
+    color:brown;
+    text-align: center;
+    margin-top: 30px;
+}
+.pro_4{
+    flex-basis: 55%;
+}
+.pro_4_pic{}
+.pro_4_pic img{
+    width: 200px;
+}
+.pro_4_name{}
+.pro_4_name p{
+    color:brown;
+    text-align: center;
+    margin-top: 30px;
+}
