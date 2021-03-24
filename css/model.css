@@ -126,28 +126,26 @@
     
     .header ul{
         position:absolute;
-        display: block;
+        display: initial;
         list-style:none;
-        right:-100%;
+        /* right:-100%; */
         top: 65px;
-        /* margin-top:40px; */
         bottom: 0;
         width: 100%;
         z-index:5;
         transition:1.5s;
-          
+        transform: translateX(-100%);
     }
     
     .header ul li{ 
         position: relative;
         display: block;
-        /* outline: 1px solid red;  */
         text-align: center;
         width: 100%;
         height: auto;
         background-color:#e5e5e5;
         opacity: 1;
-        /* background-color: rgba(#e5e5e5,); */
+        
        
     }
     .header ul li a{
@@ -173,7 +171,6 @@
     .header ol li{
         position: relative;
         display: block;
-        /* outline: 1px solid red;  */
         text-align: center;
         line-height: 70px;
         width: 100%;
@@ -199,7 +196,7 @@
         border-radius: 50%;
     }
     .menu_btn span{
-        opacity: 0;
+        opacity:0;
         width: 1px;
         height: 1px;
         display: block;
@@ -220,8 +217,9 @@
                     0 -10px 0 #727272;
     }
     #menu_control:checked ~ .menu{
-        right: 0;
-        /* overflow: hidden; */
+        right: 0px;
+        transform: none;
+        z-index: 5;
     }
 
 }
