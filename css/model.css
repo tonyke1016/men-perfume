@@ -221,7 +221,7 @@
     }
     #menu_control:checked ~ .menu{
         right: 0;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
 }
