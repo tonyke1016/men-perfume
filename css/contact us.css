@@ -46,9 +46,14 @@ body{
     display: none;
 }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .section1_left img{
+        margin-left:80px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px){
 .section1_left img{
-    margin-left:0px;
+    margin-left:120px;
 }
 }
 
