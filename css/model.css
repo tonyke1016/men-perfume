@@ -1,7 +1,7 @@
 @import url('reset.css');
 *{
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 /* ---------------header-------------- */
 .header{
@@ -128,13 +128,13 @@
         position:absolute;
         display: block;
         list-style:none;
-        right:-900px;
+        right:-100%;
         top: 65px;
         /* margin-top:40px; */
         bottom: 0;
         width: 100%;
         z-index:5;
-        transition:1s;
+        transition:1.5s;
           
     }
     
@@ -221,6 +221,7 @@
     }
     #menu_control:checked ~ .menu{
         right: 0;
+        overflow: hidden;
     }
 
 }

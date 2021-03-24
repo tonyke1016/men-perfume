@@ -81,7 +81,6 @@ body{
    height: 30px;
 }
 .section1_right .email{
-    /* margin-left: 210px; */
     color:#727272;
 }
 .section1_right #email{
@@ -89,7 +88,6 @@ body{
     height: 30px;
 }
 .section1_right .content{
-    /* margin-left: 210px; */
     color:#727272;
     vertical-align:top;
 }
