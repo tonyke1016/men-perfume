@@ -36,6 +36,7 @@ body{
   position: absolute;
   top: var(--top-offset);
   left: 0;
+  z-index: 4;
   width: var(--star-tail-length);
   height: var(--star-tail-height);
   color: var(--star-color);
@@ -441,7 +442,7 @@ body{
 .section1_left{
     width: 50%;
     /* height: 500px; */
-    height: 0;
+    height: auto;
     padding-bottom: 40%;
     z-index: 1;
     /* outline:1px solid red; */
@@ -459,7 +460,7 @@ body{
 .section1_right{
     width: 50%;
     /* height: 500px; */
-    height: 0;
+    height: auto;
     padding-bottom: 40%;
     z-index: 100;
     /* outline:1px solid red; */
@@ -467,22 +468,61 @@ body{
 .section1_right h2{
     text-align:center;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    margin-right: 50px;
     font-size: 30px;
     font-weight:bold;
     color:#727272;
     z-index: 1;
 }
 .section1_right p{
-    /* margin-left: 35px; */
     max-width: 250px;
     width: 100%;
-    /* text-align:center; */
     margin: 0 auto;
+    margin-left:30px;
     font-size: 16px;
     line-height: 1.6;
     color:#727272;
     z-index: 1;
+}
+@media (max-width:767px){
+  .section1{
+    height: 850px;
+  }
+  .section1_inner{
+    background-image: url(../img/orientalnotepicture/parchment.png);
+    width: 500px;
+    height: 700px;
+    display: block;
+    margin-bottom: 200px;
+  }
+  .section1_left{
+    width: 500px;
+    height: 250px;
+  }
+  .section1_left img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .section1_right{
+    width: 500px;
+    height: 450px;
+  }
+  .section1_right h2{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section1_right p{
+    display: block;
+    margin: 0 auto;
+  }
+    
+  
+
+
 }
 .footer{
     width: 100% ;
