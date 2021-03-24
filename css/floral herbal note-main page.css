@@ -6,13 +6,9 @@ body{
     background-attachment: fixed; 
     background-size: cover;
     background-position: center;
-        
+    
 }
-/* .wrapper{
-    margin: 0 auto;
-    width: 1200px;
-    outline:1px solid red
-} */
+
 
 .header ul li a{
     color:black;
@@ -316,51 +312,17 @@ body{
 @media screen and (min-width: 768px) and (max-width: 991px){}
 @media screen and (min-width: 992px) and (max-width: 1199px){}
 @media screen and (min-width: 1200px){}
+/* ------------------輪播----------------------- */
 
 
-.ig_carousel{
-    /* outline:1px solid red */
-    max-width: 1200px;
-    width: 100%;
-    
-    margin-bottom: 100px;
-    
-}
-.ig_carousel_inner{
-    /* height: 400px; */
-}
+
 h1{
     font-size:68px;
     color:#B9C4B6;
     display: block;
 
 }
-.ig_carousel ul{
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-around;
-        
-    /* outline:1px solid red */
-}
-.ig_carousel li{
-    
-    
-    /* outline:1px solid red */
-}
-.ig_carousel img{
-    width: 100%;
-    /* outline:1px solid red */
-}
-.ig_carousel ul a{
-    margin-top: 130px;
 
-}
-.fa-chevron-right{
-    color:#727272;
-    width: 100%;
-    vertical-align: middle;
-    
-}
 @media (max-width:767px){}
 @media screen and (min-width: 768px) and (max-width: 991px){}
 @media screen and (min-width: 992px) and (max-width: 1199px){}

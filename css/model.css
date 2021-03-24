@@ -41,8 +41,7 @@
     text-decoration: none;
     color:#fff;
     font-size:20px;
-    
-       
+      
 }
 
 .header  ol{
@@ -65,6 +64,9 @@
 .header ol li a:hover{
     
 }
+/* .click{
+    text-decoration:underline;
+} */
 /* ---------------header-------------- */
 /* ---------------漢堡選單------------- */
   #menu_control{

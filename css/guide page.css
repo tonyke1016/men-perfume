@@ -17,6 +17,7 @@ body{
 .header ol li a{
     color: black;
 }
+
 .title h1{
     margin-left:20PX;
     margin-bottom: 50px;
@@ -141,4 +142,17 @@ object-position: center;
 .pic1 p{
     overflow: hidden;
 }
-
+@media (max-width:767px){
+    .carousel{
+        width: 600px;
+        height: 1350px;
+    }
+    .carousel ul{
+        display: block;
+    }
+    .pic img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}

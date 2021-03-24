@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="./css/model.css">
     <link rel="stylesheet" href="./css/woody note-main page.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>wood note main-page</title>
+   
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+      
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+      
+        <!-- Demo styles -->
+        <style>
+          html,
+          body {
+            position: relative;
+            height: 100%;
+          }
+      
+          body {
+            /* background: #fff; */
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+          }
+      
+          .swiper-container {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            left: 50%;
+            top: 40%;
+            margin-left: -150px;
+            margin-top: -150px;
+            margin-bottom: 300px;
+          }
+      
+          .swiper-slide {
+            background-position: center;
+            background-size: cover;
+          }
+        </style>
 </head>
 <body>
-    <div class="wrapper">
+    
         <header>
             <div class="header">
                 <input type="checkbox" id="menu_control">
@@ -56,9 +96,7 @@
                     </p>
                 </div>
             </div>
-            <!-- <div class="section2_right">
-                <img src="./img/woodynotepicture/wood.png" alt="">
-            </div>    -->
+            
         </div>
         <div class="section3">
             <h2>香調表</h2>
@@ -91,23 +129,23 @@
                 </div>
             </div>
         </div>
-        <div class="ig_carousel">
+    <div class="instagram">
         <h1>INSTAGRAM</h1>
-            <ul>
-                <li>
-                    <img src="./img/woodynotepicture/ig1.png" alt="">
-                </li>
-                <li>
-                    <img src="./img/woodynotepicture/ig2.png" alt="">
-                </li>
-                <li>
-                    <img src="./img/woodynotepicture/ig3.png" alt="">
-                </li>
-                <a href="#"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></a>
-            </ul>
-        </div>
-        
     </div>
+        <!-- Swiper -->
+    <div class="swiper-container">
+        
+        <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(./img/woodynotepicture/ig1.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/woodynotepicture/ig2.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/woodynotepicture/ig3.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/woodynotepicture/ig4.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/woodynotepicture/ig5.png)"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+        
     <div class="footer">
         <div class="footer_left">
             <ul>
@@ -131,6 +169,25 @@
         </div>
     
     </div>
+     <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
     
 </body>
 </html>
