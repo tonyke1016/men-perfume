@@ -3,34 +3,76 @@
     box-sizing: border-box;
     /* outline: 1px solid red; */
 }
-
+/* ---------------header-------------- */
 .header{
     width:1200px;
     margin: 0 auto;
     display: flex;
     position: relative;
     font-size: 0;
-    /* margin-left: 20px; */
-    /* outline: 1px solid red; */
-    
     
 }
 .header img{
     /* outline: 1px solid red; */
     width: 200px;
     height: 150px;
-    /* margin-top: 30px; */
+}
+.header ul{
+    /* outline: 1px solid red; */
+    position:absolute;
+    display: flex;
+    list-style:none;
+    right: 0px;
+    bottom:0px;
+    margin-bottom: 40px;
       
 }
+.header ul li{ 
+    position: relative;
+    /* outline: 1px solid red;  */
+    text-align: center;
+    line-height: 70px;
+    width: 120px;
+    height: 70px;
+   
+}
 
-#menu_control{
+.header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+    
+       
+}
+
+.header  ol{
+    width: 120px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: none;
+}
+.header ol li{
+    height: 40px;
+}
+.header ol li a{
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.header ol li a:hover{
+    
+}
+/* ---------------header-------------- */
+/* ---------------漢堡選單------------- */
+  #menu_control{
     position: absolute;
     top: -50px;
     z-index: -2;
 }
-
-
-.menu_btn{
+/* .menu_btn{
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -61,69 +103,8 @@
     margin: auto;
     box-shadow: 0 10px 0 #727272,
                 0 -10px 0 #727272;
-}
-.header ul{
-    /* outline: 1px solid red; */
-    position:absolute;
-    display: flex;
-    list-style:none;
-    right: 0px;
-    bottom:0px;
-    margin-bottom: 40px;
-    
-    
-}
-.header ul li{ 
-    position: relative;
-    /* outline: 1px solid red;  */
-    text-align: center;
-    line-height: 70px;
-    width: 120px;
-    height: 70px;
-   
-}
-/* .click{
-    text-decoration: underline;
-} */
-/* .click a span{
-    text-decoration:none;
-} */
-.header ul li a{
-    text-decoration: none;
-    color:#fff;
-    font-size:20px;
-       
-}
-.header ul li a:hover{
-    color:black;    
-    
-}
-.header  ol{
-    /* outline: 1px solid red;  */
-    width: 120px;
-    position: absolute;
-    left: 0;
-    top: 70px;
-    display: none;
-}
-.header ol li{
-    /* outline: 1px solid red; */
-    height: 40px;
-}
-.header ol li a{
-    font-size: 14px;
-    display: block;
-    line-height: 40px;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-}
-.header ol li a:hover{
-    
-}
-.header ul li:hover ol{
-    display: block;
-}
+}   */
+/* ---------------漢堡選單------------- */
 
 @media (max-width:767px){
    
@@ -132,6 +113,9 @@
         margin: 0 auto;
         position: relative;
     }
+    .header a{
+        height: 75px;
+    }
     .header img{
         /* position: absolute; */
         margin: auto;
@@ -139,49 +123,106 @@
         height:75px;
         
     }
-    .menu_btn{
-        display: block;
-    }
+    
     .header ul{
-        /* outline: 1px solid red; */
-        position:absolute;
+        position:fixed;
         display: block;
         list-style:none;
         right:-900px;
-        top:80px;
-        margin-bottom: 40px;
+        top: 80px;
+        /* margin-top:40px; */
+        bottom: 0;
         width: 100%;
         z-index: 5;
         transition:1s;
-        display: none;
-        
+          
     }
-    #menu_control:checked ~ .menu{
-        right: 0;
-        display: block;
-        transition:3s;
-    }
+    
     .header ul li{ 
         position: relative;
+        display: block;
+        /* outline: 1px solid red;  */
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color:#e5e5e5;
+        opacity: 1;
+        /* background-color: rgba(#e5e5e5,); */
+       
+    }
+    .header ul li a{
+        position: relative;
+        font-size: 16px;
+        display: block;
+        height: 70px;
+        line-height: 70px;
+    }
+    .header ol{
+        display: block;
+        list-style:none;
+        width: 100%;
+        z-index: 5;
+        transition:1s;
+        display: block;
+        position: relative;
+        top:auto;
+        max-height:210px;
+        overflow: hidden;
+
+    }
+    .header ol li{
+        position: relative;
+        display: block;
         /* outline: 1px solid red;  */
         text-align: center;
         line-height: 70px;
         width: 100%;
         height: 70px;
-        background-color:#e5e5e5;
+        background-color:#727272;
         opacity: .7;
-       
     }
-    .header ul li a{
-        font-size: 16px;
-    }
-    .header ol{
-        top:57px;
+    .header ol li a{
+        display: block;
+        height: 70px;
     }
     
-    
-    
+    .menu_btn{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-color:#e5e5e5;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        box-shadow: 0 2px 2px #727272;
+        display: block;
     }
+    .menu_btn span{
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+        display: block;
+        overflow: hidden;
+    }
+    .menu_btn::before{
+        content:"";
+        position: absolute;
+        height: 4px;
+        left: 4px;
+        width: 42px;
+        background-color:#727272;
+        border-radius: 40px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        box-shadow: 0 10px 0 #727272,
+                    0 -10px 0 #727272;
+    }
+    #menu_control:checked ~ .menu{
+        right: 0;
+    }
+
+}
   
 @media screen and (min-width: 768px) and (max-width: 991px) {
    
@@ -228,6 +269,15 @@
 }
  @media screen and (min-width: 1200px) {
     
+}
+@media screen and (min-width: 768px){
+    .header ul li a:hover{
+        color:black;    
+        
+    }
+    .header ul li:hover ol{
+        display: block;
+    }
 }
 
 .footer{

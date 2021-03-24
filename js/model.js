@@ -1,8 +1,11 @@
-$(function(){
-  
-  // 點擊按鈕，選單縮放
-  $("button.btn_switch").on("click", function(){
-    $("nav.main_nav").slideToggle();
-  });
-  
+// ---------------漢堡選單收合--------------//
+
+
+// ---------------子選單收合----------------//
+var product = document.getElementById('product');
+var ol = document.getElementById('sub_menu');
+product.addEventListener('click',function(){
+
+    if(ol.style.max-height==0 px){ol.style.max-height==210 px}
+    else{ol.style.max-height ==0 px}
 });

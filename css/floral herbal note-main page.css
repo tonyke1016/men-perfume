@@ -135,7 +135,7 @@ body{
 }
 .sug_left{
     position:absolute;
-    z-index: 7;
+    z-index: 1;
     max-width: 700px;
     width: 100%;
      /* outline:1px solid red */
