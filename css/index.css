@@ -57,10 +57,10 @@ body {
 }
 .slide1 .annotation{
   display: block;
-  /* width: 200px;
-  height: 200px; */
-  width: 20vw;
-  height: 30vh;
+  width: 200px;
+  height: 200px;
+  /* width: 20vw;
+  height: 20vh; */
   margin-left: 50px;
   margin-top: 20px;
   background-color:#fff;
