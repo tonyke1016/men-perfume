@@ -50,11 +50,11 @@ body{
 .section1_top h1{
     text-align: center;
     font-size: 100px;
-    max-width: 375px;
+    max-width: 430px;
     width: 100%;
     margin:0 auto;
     color:#E9EDD4;
-    /* z-index: 2; */
+    z-index: 2;
 }
 .section1_mid{
     display: block;
@@ -80,7 +80,7 @@ body{
     text-align: center;
     font-size: 100px; 
     color:#E9EDD4;
-    /* z-index: 2; */
+    z-index: 2;
 }
 @media (max-width:767px){
     .section1{

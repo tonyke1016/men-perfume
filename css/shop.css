@@ -108,10 +108,13 @@ body{
     position: relative;
     margin-right: 10px;
     margin-bottom: 10px;
-    border:2px solid black;
+    border:2px solid #727272;
     background-color: #fff;
 
     
+}
+.main li:hover{
+    box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
 }
 .main li .pro{
     /* outline: 1px solid red; */
