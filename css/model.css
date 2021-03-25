@@ -222,7 +222,7 @@
     #menu_control:checked ~ .menu{
         right: 0px;
         transform: none;
-        z-index: 5;
+        /* z-index: 5; */
     }
 
 }

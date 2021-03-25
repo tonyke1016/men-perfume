@@ -2,11 +2,6 @@
 body{
     font-style: verdana;     
 }
-/* .wrapper{
-    margin: 0 auto;
-    width: 1200px;
-       
-} */
 
 .header ul li a{
     color:black;      
@@ -95,10 +90,10 @@ object-position: center;
 .pic::after{
     content:"";
     position: absolute;
-    width: 100%;
+    width:100%;
     top:0;
     left:0;
-    height: 100%;
+    height:100%;
     z-index: 1;
     display: block;
     background:rgba(255,255,255,0.7);
@@ -144,15 +139,64 @@ object-position: center;
 }
 @media (max-width:767px){
     .carousel{
-        width: 600px;
+        width: 300px;
         height: 1350px;
     }
     .carousel ul{
         display: block;
+    }
+    .carousel li p{
+        opacity: 1;
     }
     .pic img{
         width: 100%;
         display: block;
         margin: 0 auto;
     }
+    .pic1 p{
+        overflow:auto;
+    }
+    .carousel ul li p:hover{
+        display: block;
+        flex-grow: 0;
+    }
+    .pic:hover {
+        flex-grow: 1 !important;
+    }
+    .pic::after{
+        opacity: 1;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .carousel{
+        width: 600px;
+        height: 1350px;
+    }
+    .carousel ul{
+        display: block;
+    }
+    .carousel li p{
+        opacity: 1;
+    }
+    .pic img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .pic1 p{
+        overflow:auto;
+    }
+    .carousel ul li p:hover{
+        display: block;
+        flex-grow: 0;
+    }
+    .pic:hover {
+        flex-grow: 1 !important;
+    }
+    .pic::after{
+        opacity: 1;
+    }
+    
 }
