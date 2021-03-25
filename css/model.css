@@ -53,6 +53,7 @@
 }
 .header ol li{
     height: 40px;
+    line-height: 45px;
 }
 .header ol li a{
     font-size: 14px;
@@ -254,6 +255,7 @@
     }
     .header ol li{
         height: 30px;
+        line-height: 30px;
     }
     .header ol li a{
         line-height: 30px;
