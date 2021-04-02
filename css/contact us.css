@@ -85,14 +85,14 @@ body{
     
 }
 .section1_right #name{
-   width: 240px;
+   width: 235px;
    height: 30px;
 }
 .section1_right .email{
     color:#727272;
 }
 .section1_right #email{
-    width: 240px;
+    width: 235px;
     height: 30px;
 }
 .section1_right .content{
