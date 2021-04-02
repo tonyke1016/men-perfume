@@ -44,13 +44,12 @@ body{
 }
 
 .aside{
-    /* outline: 1px solid red; */
-    /* width: 250px; */
+    
     width: 25%;
     min-width: 120px;
     left:0;
     top:0;
-    /* margin-top: 120px; */
+    margin-left: 20px;
 
 }
 
@@ -89,10 +88,9 @@ body{
 }
 }
 .main{
-    /* outline: 1px solid red; */
-    /* width: 950px; */
+    
     width: 75%;
-    /* margin-top: 120px; */
+    
 }
 .main ul{
     /* outline: 1px solid red; */
@@ -111,7 +109,7 @@ body{
     border:2px solid #727272;
     background-color: #fff;
 
-    
+     
 }
 .main li:hover{
     box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
@@ -120,6 +118,13 @@ body{
     /* outline: 1px solid red; */
     width: 250px;
 
+}
+.main li a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
 }
 .main li a img{
     /* outline: 1px solid red; */

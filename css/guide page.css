@@ -172,10 +172,13 @@ object-position: center;
 @media (min-width: 768px) and (max-width: 991px){
     .carousel{
         width: 600px;
-        height: 1350px;
+        height: 1500px;
     }
     .carousel ul{
         display: block;
+    }
+    .carousel li{
+        margin-bottom: 50px;
     }
     .carousel li p{
         opacity: 1;
