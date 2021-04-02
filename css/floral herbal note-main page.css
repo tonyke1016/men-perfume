@@ -63,7 +63,7 @@ body{
     width: 100%;
 }
 .product_des_right h2{
-    text-align:center;
+    text-align:left;
     font-size: 30px;
     color:#B9C4B6;
     margin-top: 100px;
@@ -71,7 +71,7 @@ body{
 
 }
 .product_des_right p{
-    text-align:center;
+    text-align:left;
     /* width:200px; */
     line-height: 1.6;
     margin-bottom: 20px;
@@ -105,6 +105,7 @@ body{
         position:relative;
         margin: 0 auto;
         max-width: 150px;
+        padding-top: 40px;
         
     }
     .product_des_right_inner{
@@ -124,7 +125,7 @@ body{
     margin:0 auto;
     width: 100%;
     height: 500px;
-    display: flex;
+    display: block;
     position: relative;
     margin-bottom: 200px;
     
@@ -145,6 +146,7 @@ body{
 
 }
 .sug_left h2{
+    text-align: left;
     font-size: 30px;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -152,6 +154,7 @@ body{
     color:#B9C4B6;
 }
 .sug_left p{
+    text-align: left;
     max-width: 450px;
     width: 100%;
     margin-left: 20PX;
@@ -180,7 +183,7 @@ body{
 }
 @media (max-width:767px){
     .sug{
-        max-width: 500px;
+        max-width: 450px;
         margin-bottom: 0px;
         height: 400px;
     }
@@ -191,12 +194,12 @@ body{
         height: 350px;
     }
     .sug_left h2{
-        text-align:center;
+        text-align:left;
     }
     .sug_left p{
-        text-align:center;
+        text-align:left;
         max-width: 350px;
-        margin:0 auto;
+        
     }
 
 }
@@ -216,10 +219,10 @@ body{
         height: 450px;
     }
     .sug_left h2{
-        text-align:center;
+        text-align:left;
     }
     .sug_left p{
-        text-align:center;
+        text-align:left;
         margin-top: 100px;
     }
     .sug_right {

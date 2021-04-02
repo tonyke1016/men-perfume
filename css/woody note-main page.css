@@ -125,13 +125,13 @@ body{
 .section2_left_inner{
     max-width:600px;
     width: 100%;
-    padding-left: calc(100% - 950px);
+    /* padding-left: calc(100% - 950px); */
 }
 .section2_left h2{
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 70px;
-    max-width:500px;
+    max-width:600px;
     width: 100%;
     color:#BD8A49;
     font-size: 30px;
@@ -140,7 +140,7 @@ body{
     padding-left: 70px;
     color:#BD8A49;
     font-size: 16px;
-    max-width:500px;
+    max-width:600px;
     width: 100%;
     line-height: 2;
 }
