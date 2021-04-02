@@ -101,6 +101,7 @@ body{
 }
 .section1_right #textarea{
     resize:none;
+    min-width: 235px;
 }
 .section1_right .btn_reset{
     margin-left: 75px;
@@ -133,29 +134,9 @@ body{
 .section1_right .btn_submit:focus{
     outline: none;
 }
-@media (max-width:767px){
-    .section1_right_inner{
-    padding-left:calc(100% - 500px);
-    }
+@media (max-width:767px){ 
 }
 @media screen and (min-width: 768px) and (max-width: 1199px){
-.section1_right .name{
-    margin-left: 33px;
-    margin-bottom: 300px;
-}
-.section1_right .email{
-    margin-left: 0;
-}
-.section1_right .content{
-    margin-left: 0;
-}
-.section1_right .btn_reset{
-    margin-left: 75px;
-}
-.section1_right .btn_submit{
-
-}
-
 }
 @media screen and (min-width: 992px) and (max-width: 1199px){
 
