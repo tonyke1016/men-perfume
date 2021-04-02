@@ -145,6 +145,9 @@ object-position: center;
     .carousel ul{
         display: block;
     }
+    .carousel li{
+        margin-bottom: 50px;
+    }
     .carousel li p{
         opacity: 1;
     }
