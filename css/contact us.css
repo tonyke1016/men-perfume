@@ -64,7 +64,10 @@ body{
 .section1_right{
     width: 100%;
 }
-.section1_right_top{}
+.section1_right_top{
+    /* outline: 1px solid red;  */
+
+}
 .section1_right_top h2{
     text-align:center;
     font-size: 30px;
@@ -72,12 +75,17 @@ body{
     margin-bottom: 50px;
     color:#727272;
 }
-.section1_right_bottom{}
+.section1_right_bottom{
+    /* outline: 1px solid red;  */
+    
+}
 
 .section1_right_bottom .form{
     display: block;
-    width: 330px;
+    width: 350px;
     margin: 0 auto;
+    /* outline: 1px solid red;  */
+
 }
 .section1_right .name{
     margin-left: 32px;
@@ -98,10 +106,12 @@ body{
 .section1_right .content{
     color:#727272;
     vertical-align:top;
+    display: inline;
 }
 .section1_right #textarea{
     resize:none;
     min-width: 235px;
+    display: inline-block;
 }
 .section1_right .btn_reset{
     margin-left: 75px;
