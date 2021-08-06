@@ -32,6 +32,20 @@ body {
     
   
 }
+@media (max-width:767px){
+
+.header ul li a:hover{
+    color:black;
+}
+
+
+.header ol li a:hover{
+  color:black;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){}
+@media screen and (min-width: 992px) and (max-width: 1199px){}
+@media screen and (min-width: 1200px){}
 /* --------------------slide 1--------------------------- */
 .slide1 {
   background-image: url(../img/home/homepage1.png);
